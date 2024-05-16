@@ -1,4 +1,4 @@
-## [0.1.0] - 16-05-2024
+## [v0.1.0] - 16-05-2024
 
 ### Added
 
@@ -16,7 +16,7 @@
 
 - Fixed the _script.js_ file
 
-## [0.0.1] - 12-05-2024
+## [v0.0.1] - 12-05-2024
 
 ### Added
 
@@ -28,5 +28,5 @@
 
 - Changed the README.md file
 
-[0.0.1]: https://github.com/ABallarini/javascript-counter/releases/tag/v0.0.1
-[0.1.0]: https://github.com/ABallarini/javascript-counter/compare/0.0.1...0.1.0
+[v0.0.1]: https://github.com/ABallarini/javascript-counter/releases/tag/v0.0.1
+[v0.1.0]: https://github.com/ABallarini/javascript-counter/compare/v0.0.1...v0.1.0
