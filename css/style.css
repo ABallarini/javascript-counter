@@ -1,0 +1,112 @@
+/* change the font family */
+body {
+  font-family: "Courier", monospace;
+  margin: 0;
+  padding: 0;
+  background-color: cadetblue;
+}
+
+header {
+  background-color: #595d6e;
+  color: #fff;
+  font-size: medium;
+  padding: 10px;
+  text-align: center;
+  position:fixed;
+  width: 100vw;
+}
+
+header a {
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #595d6e;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+footer a {
+  color: #fff;
+}
+
+#counter {
+  font-size: 2em;
+  color: #333;
+  font-weight: bold;
+}
+
+#counter span {
+  color: #f00;
+}
+
+#increment {
+  font-size: 1.5em;
+  background-color: greenyellow;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 50%;
+  padding: 0.9em 1.2em;
+  border: 0;
+}
+
+#increment:hover {
+  cursor: pointer;
+  background-color: #adff;
+}
+
+#decrement {
+  font-size: 1.5em;
+  background-color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 50%;
+  padding: 0.9em 1.2em;
+}
+
+#decrement:hover {
+  cursor: pointer;
+  background-color: #ff6347;
+}
+
+/* use the flex box to center and create a card */
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.card-content {
+  padding: 15px;
+  border-radius: 10px ;
+  border: 1px solid rgba(44, 35, 35, 0.1);
+  box-shadow: 0 0 10px rgba(90, 65, 65, 0.1);
+  background-color: #ffd1d1b9;
+}
+.card-content h1 {
+  text-align: center;
+}
+.counter {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Desktop */
+@media only screen and (min-width: 960px) {
+  .card-content {
+    padding: 2.5em;
+  }
+}
