@@ -9,11 +9,14 @@ body {
 header {
   background-color: #595d6e;
   color: #fff;
-  font-size: medium;
+  font-size: 0.5em;
   padding: 10px;
   text-align: center;
   position:fixed;
   width: 100vw;
+}
+header h1 {
+  padding: 0 8% 0 8%;
 }
 
 header a {
@@ -44,13 +47,13 @@ footer a {
 }
 
 #increment {
-  font-size: 1.5em;
+  font-size: 0.6em;
   background-color: greenyellow;
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
   border-radius: 50%;
-  padding: 0.9em 1.2em;
+  padding: 0.8em 1em;
   border: 0;
 }
 
@@ -60,14 +63,14 @@ footer a {
 }
 
 #decrement {
-  font-size: 1.5em;
+  font-size: 0.6em;
   background-color: red;
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
   border: 0;
   border-radius: 50%;
-  padding: 0.9em 1.2em;
+  padding: 0.8em 1em;
 }
 
 #decrement:hover {
@@ -107,6 +110,46 @@ footer a {
 /* Desktop */
 @media only screen and (min-width: 960px) {
   .card-content {
-    padding: 2.5em;
+    padding: 1.2em;
+    font-size: 1.5em;
+  }
+  #increment {
+    font-size: 1em;
+    padding: 1.1em 1.5em;
+  }
+  #decrement {
+    font-size: 1em;
+    padding: 1.1em 1.5em;
+  }
+}
+
+@media only screen and (max-width: 959px)  and (min-width: 600px) {
+  .card-content {
+    padding: 1em;
+    font-size: 1.5em;
+  }
+  #increment {
+    font-size: 0.8em;
+    padding: 1em 1.2em;
+  }
+  #decrement {
+    font-size: 0.8em;
+    padding: 1em 1.2em;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 599px) {
+  .card-content {
+    padding: 0.9em 1em 0.9em 1em;
+    font-size: 1em;
+  }
+  #increment {
+    font-size: 1.2em; 
+    padding: 0.8em 1em;
+  }
+  #decrement {
+    font-size: 1.2em;
+    padding: 0.8em 1em;
   }
 }
